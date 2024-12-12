@@ -1,0 +1,76 @@
+.nav-link:hover {
+  background-color: #cccccc;
+
+}
+
+.navbar-brand,
+.nav-link {
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  letter-spacing: 4px;
+}
+
+.textonimage {
+  color: #fff;
+  font-family: "Segoe UI", Arial, sans-serif;
+  letter-spacing: 4px;
+  line-height: 1.5;
+}
+
+
+
+/* text on image */
+
+
+.styletextonimage {
+  font-size: 36px;
+}
+
+.BR {
+  color: #fff;
+  background-color: #000;
+  padding: 10px 20px;
+  opacity: 0.75;
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+.Architects {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+
+}
+
+@media (max-width: 600px) {
+  .BR {
+    font-size: 34px;
+    padding: 8px 16px;
+  }
+
+  .Architects {
+    display: none;
+    /* Hide "Architects" text */
+  }
+}
+
+.Projects {
+  font-size: 24px;
+  line-height: 1.5;
+  font-family: "Segoe UI", Arial, sans-serif;
+  font-weight: 400;
+  border-bottom: 1px solid #ccc !important;
+  margin-left: 19px;
+  margin-right: 30px;
+  margin-top: 66px;
+}
+
+.fourimagesontext {
+  top: 0;
+  left: 0;
+  font-family: Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  width: 148px;
+}
